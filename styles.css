@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: Roboto;
+    box-sizing: border-box;
 }
 
 body{
@@ -93,7 +94,7 @@ ul{
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
-    margin: 24px;
+    margin: 48px;
 }
 
 .card{
@@ -108,9 +109,20 @@ ul{
 .cards{
     display: flex;
     justify-content: center;
+    gap: 48px;
 }
 
 .text{
     color:grey;
+    font-size: 18px;
+}
+
+.card-text{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     text-align: center;
 }
