@@ -125,4 +125,5 @@ ul{
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+    gap: 8px;
 }
