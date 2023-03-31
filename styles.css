@@ -89,12 +89,16 @@ ul{
     gap: 16px;
 }
 
+.mid-content{
+    padding: 50px 100px 100px 100px;
+}
+
 .mid-title{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
-    margin: 48px;
+    padding-bottom: 50px;
 }
 
 .card{
@@ -126,4 +130,20 @@ ul{
     align-items: center;
     text-align: center;
     gap: 8px;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.quote{
+    font-size: 36px;
+    font-style:italic;
+    font-weight:lighter;
+    color: #1f2937;
 }
