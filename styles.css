@@ -197,3 +197,16 @@ ul{
     border-radius: 8px;
     padding: 8px 32px;
 }
+
+.footer{
+    background-color: #1f2937;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    color: #f9faf8;
+    font-size: 18px;
+}
